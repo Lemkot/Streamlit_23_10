@@ -1,0 +1,9 @@
+numpy
+pandas
+requests
+streamlit
+protobuf
+click
+ipython
+matplotlib
+yfinance

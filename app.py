@@ -402,7 +402,8 @@ difference_10year_2year = prices_10y_interest - rates_2014_2023_2y
 
 st.header('‍The difference between the 10-year and 2-year US dollar interest rates')
 fig, ax = plt.subplots()
-difference_10year_2year.plot(ax=ax, label='The difference between the 10-year and 2-year US dollar interest rates')
+difference_10year_2year.plot(ax=ax)
+plt.ylabel('Difference')
 plt.xlabel('Date')
 ax.legend()
 st.pyplot(fig)
@@ -415,7 +416,8 @@ difference_2year_3month = rates_2014_2023_2y - prices_3m_interest
 
 st.header('‍The difference between the 2-year and 3-month US dollar interest rates')
 fig, ax = plt.subplots()
-difference_2year_3month.plot(ax=ax, label='The difference between the 2-year and 3-month US dollar interest rates')
+difference_2year_3month.plot(ax=ax)
+plt.ylabel('Difference')
 plt.xlabel('Date')
 ax.legend()
 st.pyplot(fig)
